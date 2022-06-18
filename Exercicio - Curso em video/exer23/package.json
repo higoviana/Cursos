@@ -1,0 +1,19 @@
+{
+  "name": "exer23",
+  "version": "1.0.0",
+  "description": "exercício 23 do Curso HTML (Curso em video)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/higoviana/exer23.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/higoviana/exer23/issues"
+  },
+  "homepage": "https://github.com/higoviana/exer23#readme"
+}

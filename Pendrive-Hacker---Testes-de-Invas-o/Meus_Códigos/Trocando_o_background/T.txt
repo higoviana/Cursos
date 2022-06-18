@@ -1,0 +1,9 @@
+
+
+$client = new-object System.Net.WebClient
+$client.DownloadFile("https://i.imgur.com/wcPVuoj.jpeg" , "montanha.jpg")
+reg add "HKEY_CURRENT_USER\control panel\desktop" /v wallpaper /t REG_SZ /d "" /f
+reg add "HKEY_CURRENT_USER\control panel\desktop" /v wallpaper /t REG_SZ /d "%USERPROFILE\montanha.jpg"  /f
+reg add "HKEY_CURRENT_USER\control panel\desktop" /v wallpaperStyle /t REG_SZ /d 2 /f
+
+RUNDLL32.EXE user32.dll,UpdatePerUserSystemParameters ,1 ,True
